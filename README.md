@@ -16,4 +16,9 @@ Then run this command to compile the code:
 
 g++ -o main main.cpp -lrt -lasound -ljack -lpthread -lportaudio -lsndfile
 
-Make sure you have installed g++ compiler before in your device.
+Make sure you have installed g++ compiler before in your device. You can also install the sndfile library for manafing the wav files using this command: 
+
+```
+apt-get install libsndfile-dev
+```
+
