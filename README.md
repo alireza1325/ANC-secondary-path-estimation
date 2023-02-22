@@ -1,4 +1,4 @@
-# ANC-secondary-path-estimation
+# Adaptive FIR filter implementation for ANC secondary path estimation
 
 The app is designed to tackle a key challenge in the development of active noise cancellation (ANC) systems, which is the presence of nonlinearities in the secondary path that can limit system performance. The secondary path can be modeled using a Finite Impulse Response (FIR) filter.
 
