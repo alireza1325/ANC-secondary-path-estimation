@@ -13,12 +13,13 @@ The app saves the input, recorded, and filtered sounds to WAV files, which can b
 First you need to install the portaudio library in your computer using the information on this page: http://www.portaudio.com/docs/v19-doxydocs/compile_linux.html
 
 Then run this command to compile the code:
-
+```
 g++ -o main main.cpp -lrt -lasound -ljack -lpthread -lportaudio -lsndfile
-
+```
 Make sure you have installed g++ compiler before in your device. You can also install the sndfile library for manafing the wav files using this command: 
 
 ```
 apt-get install libsndfile-dev
 ```
+
 
